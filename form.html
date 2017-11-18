@@ -1,0 +1,49 @@
+<html>
+<head>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="styling.css" />
+    <title>Form Handler </title>   
+ </head>
+   
+<body>
+        <div class="alignment" >
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label>
+                        First Name
+                    </label>
+                    <input class="form-control" type="text" name="fname" id="fname" onblur="checkFName(this.value)" />
+                    <span id="fnameValidity" class="hidden">Invalid First Name</span>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        Last Name
+                    </label>
+                    <input class="form-control" type="text" name="lname" id="lname" onblur="checkLName(this.value)" />
+                    <span id="lnameValidity" class="hidden">Invalid Last Name</span>
+                </div>
+                <div class="form-group">
+                    <label>
+                        Email
+                    </label>
+                    <input class="form-control" type="text" name="email" id="email" onblur="checkEmail(this.value)" />
+                    <span id="emailValidity" class="hidden">Invalid Email Name</span>
+                </div>
+                <div class="form-group">
+                    <label>
+                        Mobile No.
+                    </label>
+                    <input class="form-control" type="text" name="mob" id="mob" onblur="checkMobile(this.value)" />
+                    <span id="mobValidity" class="hidden">Invalid Mobile Name</span>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit" onclick="CheckValidity()">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    <script type="text/javascript" src="script.js">
+    </script>
+</body>
+</html>

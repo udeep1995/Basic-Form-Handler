@@ -1,0 +1,21 @@
+﻿/*
+    to hide invalid message span boxes
+*/
+.hidden{
+    display:none;
+}
+/*
+    to show invalid message span boxes
+*/
+.visible{
+    display:block;
+    color:red;  
+}
+/*
+    to align div containing form
+*/
+.alignment{
+    width:600px; 
+    margin-left:30%; 
+    margin-top:10%;
+}
